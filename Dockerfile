@@ -11,4 +11,4 @@ RUN --mount=type=cache,target=/build_cache \
     /usr/bin/nice /pd_build/install_image.sh
 
 CMD ["/sbin/my_init"]
-EXPOSE 80 443
+EXPOSE 80 443 22
