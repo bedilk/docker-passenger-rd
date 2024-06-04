@@ -8,5 +8,5 @@ run apt-get update
 run apt-get install -y memcached
 run mkdir /etc/service/memcached
 run cp /pd_build/runit/memcached /etc/service/memcached/run
-run touch /etc/service/memcached/down
+#run touch /etc/service/memcached/down
 run cp /pd_build/config/memcached.conf /etc/memcached.conf
